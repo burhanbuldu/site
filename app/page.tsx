@@ -105,7 +105,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-8xl font-extrabold mt-8 leading-tight">
-            Kars’ın
+            Kars’ta
 
             <span className="block text-yellow-400">
               Güvenilir Taksi Durağı
@@ -315,11 +315,19 @@ export default function Home() {
                 desc: "Hızlı ve güvenli şehir içi ulaşım",
               },
               {
+                title: "Şehirler arası",
+                desc: "Şehirler arası konforlu taksi hizmeti",
+              },
+              {
                 title: "Havalimanı",
                 desc: "Zamanında premium transfer",
               },
               {
-                title: "KarstaTaksi.com.tr",
+                title: "Otogar ",
+                desc: "Şehir içinden otogara en hızlı yol",
+              },
+              {
+                title: "Turistik Geziler",
                 desc: "Ani Ören Yeri ve Çıldır Gölü başta olmak üzere özel tur ve ulaşım hizmetleri sunuyoruz",
               },
             ].map((item, i) => (
